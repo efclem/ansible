@@ -1,0 +1,4 @@
+Ansible commands.
+
+ansible all -m ping		# check if target server is reacheble.
+ansible all -m gather_facts 	# get information about the target servers.
